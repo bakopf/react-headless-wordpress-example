@@ -1,0 +1,33 @@
+/* App.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.App-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+/* App.css */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.scroll-to-top:hover {
+  opacity: 0.8;
+}
